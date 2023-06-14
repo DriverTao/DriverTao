@@ -1,0 +1,668 @@
+{
+	"projects":
+	{
+		"Developer_Edtion":
+		{
+			"allowed_packages":
+			[
+			],
+			"default": false,
+			"api_version": 53,
+			"login_url": "https://bluelink6-dev-ed.my.salesforce.com/",
+			"password": "salesforce,,1970",
+			// "security_token": "P4J9NiLJKYp2C16jRhjPeL5o",
+			"subscribed_metadata_objects":
+			[
+				"ApexClass",
+		    	"ApexTrigger",
+		    	"ApexPage",
+		    	"ApexComponent",
+		    	"AuraDefinitionBundle",
+		    	"LightningComponentBundle"
+			],
+			"username": "taojiec@bluelinksys.com",
+			"workspace": "D:/Bluelinksys/WorkSpace-Lighting",
+		},
+		// "Abxy-dev":
+		// {
+		// 	"allowed_packages":
+		// 	[
+		// 	],
+		// 	"api_version": 44,
+		// 	"default": false,
+		// 	"deploy_options":
+		// 	{
+		// 		"allowMissingFiles": false,
+		// 		"autoUpdatePackage": false,
+		// 		"checkOnly": false,
+		// 		"ignoreWarnings": true,
+		// 		"performRetrieve": false,
+		// 		"purgeOnDelete": false,
+		// 		"rollbackOnError": true,
+		// 		"runTests": true,
+		// 		"singlePackage": true,
+		// 		"testLevel": "RunSpecifiedTests",
+		// 	},
+		// 	"login_url": "https://test.salesforce.com",
+		// 	"password": "1234qwer",
+		// 	"subscribed_metadata_objects":
+		// 	[
+		// 		"SharingRules",
+		// 		"ApexClass",
+		// 		"ApexTrigger",
+		// 		"ApexPage",
+		// 		"StaticResource",
+		// 		"AuraDefinitionBundle"
+		// 	],
+		// 	"username": "joey.yao@comexposium.com.Staging",
+		// 	"workspace": "D:/Bluelinksys/WorkSpace-Lighting",
+		// },
+		// "Yh-dev":
+		// {
+		// 	"allowed_packages":
+		// 	[
+		// 	],
+		// 	"api_version": 53,
+		// 	"default": false,
+		// 	"login_url": "https://test.salesforce.com",
+		// 	"password": "1qaz2wsx",
+		// 	"subscribed_metadata_objects":
+		// 	[
+		// 		"SharingRules",
+		// 		"ApexClass",
+		// 		"ApexTrigger",
+		// 		"ApexPage",
+		// 		"StaticResource",
+		// 		"AuraDefinitionBundle",
+		// 		"LightningComponentBundle"
+		// 	],
+		// 	"username": "bls@yhglobal.com.dev",
+		// 	"workspace": "D:/Bluelinksys/WorkSpace-Lighting/YueHai-Dev",
+		// },
+		// "Yh-Product":
+		// {
+		// 	"allowed_packages":
+		// 	[
+		// 	],
+		// 	"api_version": 53,
+		// 	"default": false,
+		// 	"login_url": "https://test.salesforce.com",
+		// 	"password": "1234QWER",
+		// 	"subscribed_metadata_objects":
+		// 	[
+		// 		"SharingRules",
+		// 		"ApexClass",
+		// 		"ApexTrigger",
+		// 		"ApexPage",
+		// 		"StaticResource",
+		// 		"AuraDefinitionBundle",
+		// 		"LightningComponentBundle"
+		// 	],
+		// 	"username": "hanwei@yh.com.dev",
+		// 	"workspace": "D:/Bluelinksys/WorkSpace-Lighting",
+		// },
+		// "Yutong-dev":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 48,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "1qaz@WSX",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "hanwei@yutong.com.dev",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace-Lighting/YuTong-Dev",
+		// },
+		// "Yutong-Live":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 48,
+		//    	"default": false,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "fernando.901013",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "lijyn@yutong.com",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace-Lighting/YuTong-Live",
+		// },
+		// "Pernod-ricard-B4dev":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 48,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "Pernod202209",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "joey.yao@pernod-ricard.com.asisb4dev",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/Pernod-Richard-B4Dev",
+		// },
+		// "Pernod-ricard-B1full":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 48,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "Pernod202209",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	// "ApexClass",
+		//     	// "ApexTrigger",
+		//     	// "ApexPage",
+		//     	"ApexComponent",
+		//     	// "AuraDefinitionBundle",
+		//     	// "LightningComponentBundle"
+		// 	],
+		//    	"username": "Joey.Yao@pernod-ricard.com.shsb1full",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/Pernod-Richard-UAT",
+		// },
+		// "Pernod-ricard-B1dev":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 48,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "Pernod202209",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "Joey.YAO@pernod-ricard.com.asisb1dev",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/Pernod-Richard-B1Dev",
+		// },
+		// "Trailhead-Playground":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": true,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "sf$%0929",
+		//    	"security_token": "jbYw2J9ctZ9PgY6s4Tfu9TkQ",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "taojie@brave-koala-uiwpi2.com",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/Trailhead-Playground",
+		// },
+		// "Trailhead-Playground-Superbadge":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "sf$%0929",
+		//    	"security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "taojie@cunning-raccoon-c9hcqo.com",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/Trailhead-Playground-Superbadge",
+		// },
+		// "Shining3D":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "1234qwer",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		// 		"ApexClass",
+		// 		"ApexPage",
+		// 		"ApexTrigger",
+		// 	],
+		//    	"username": "taojie@shining3d.com.dev",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/shining3d",
+		// },
+		// "Shining3D_Product":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "shining3D.com2022",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+
+		// 		"ApexClass",
+		// 		"ApexPage",
+		// 		"ApexTrigger",
+		// 	],
+		// 	"deploy_options":
+		//    {
+		//     "allowMissingFiles": false,
+		//     "autoUpdatePackage": false,
+		//     "checkOnly": false,
+		//     "ignoreWarnings": true,
+		//     "performRetrieve": false,
+		//     "purgeOnDelete": false,
+		//     "rollbackOnError": true,
+		//     "runTests": "true",
+		//     "singlePackage": true,
+		//     "testLevel": "RunSpecifiedTests",
+		//     //"testLevel": "NoTestRun",
+		//    },
+		//    	"username": "chenrongyong@shining3d.com",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/Shining3D_Product",
+		// },
+		// "JONES":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "1qaz2wsx",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "taojie@jones-corp.com.dev",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/JONES",
+		// },
+		// "JONES_Product":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "JONES$2022",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		// 	"deploy_options":
+		//    	{
+		//     "allowMissingFiles": false,
+		//     "autoUpdatePackage": false,
+		//     "checkOnly": false,
+		//     "ignoreWarnings": true,
+		//     "performRetrieve": false,
+		//     "purgeOnDelete": false,
+		//     "rollbackOnError": true,
+		//     "runTests": "true",
+		//     "singlePackage": true,
+		//     "testLevel": "RunSpecifiedTests",
+		//     //"testLevel": "NoTestRun",
+		//    	},
+		//    	"username": "it-yghc@force.com",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/JONES_Product",
+		// },
+		// "NovoCarede":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "1qaz2wsx",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "novocare.ma@novonordisk.com..novocarede",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/NovoCarede",
+		// },
+		// "NovoCarede_Product":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "Novocare@ma1234567",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "novocare.ma@novonordisk.com",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/NovoCarede_Product",
+		// },
+		"ShangXia":
+		{
+			"allowed_packages":
+		   	[
+			],
+		   	"api_version": 53,
+		   	"default": false,
+		   	"login_url": "https://test.salesforce.com",
+		   	"password": "3edc$RFV",
+		   	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		   	"subscribed_metadata_objects":
+		   	[
+		    	"ApexClass",
+		    	"ApexTrigger",
+		    	"ApexPage",
+		    	"ApexComponent",
+		    	"AuraDefinitionBundle",
+		    	"LightningComponentBundle"
+			],
+		   	"username": "bls.admin2@shangxia.com.dev",
+		   	"workspace": "D:/Bluelinksys/WorkSpace/ShangxiaTrade",
+		},
+		"ShangXia-Product":
+		{
+			"allowed_packages":
+		   	[
+			],
+		   	"api_version": 53,
+		   	"default": false,
+		   	"login_url": "https://login.salesforce.com",
+		   	"password": "Shangxia@2022",
+		   	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		   	"subscribed_metadata_objects":
+		   	[
+		    	"ApexClass",
+		    	"ApexTrigger",
+		    	"ApexPage",
+		    	"ApexComponent",
+		    	"AuraDefinitionBundle",
+		    	"LightningComponentBundle"
+			],
+		   	"username": "patrick.yan1@shang-xia.com",
+		   	"workspace": "D:/Bluelinksys/WorkSpace/ShangxiaTrade",
+		},
+		// "sandbox23":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "1qaz2wsx",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "taojie@ninebot.com.sandbox23",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/sandbox23",
+		// },
+		// "amazonconn":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "1qaz2wsx",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "taojie@ninebot.com.amazonconn",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/amazonconn",
+		// },
+		// "segway-Product":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "~]E)MFp+_2jNLA~rZfb]",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "hua.li@inossem.com",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/segway-Product",
+		// },
+		// "NineBotDemo":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "bluelinksys2023",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "admin@9bot.demo",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/NineBotDemo",
+		// },
+		// "DongSheng-Sandbox":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": true,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	// "password": "DS2023@05",
+		//    	"password": "dongsheng@0929",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	// "username": "kevin.qian@dzh-group.com.uat",
+		//    	"username": "jie.tao@dzh-group.com.uat",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/DongSheng",
+		// },
+		"DongSheng-UAT":
+		{
+			"allowed_packages":
+		   	[
+			],
+		   	"api_version": 53,
+		   	"default": false,
+		   	"login_url": "https://test.salesforce.com",
+		   	"password": "dongsheng@0929",
+		   	"subscribed_metadata_objects":
+		   	[
+		    	"ApexClass",
+		    	"ApexTrigger",
+		    	"ApexPage",
+		    	"ApexComponent",
+		    	"AuraDefinitionBundle",
+		    	"LightningComponentBundle"
+			],
+		   	"username": "jie.tao@dzh-group.com.uat",
+		   	"workspace": "D:/Bluelinksys/WorkSpace/DongSheng-UAT",
+		},
+		"DongSheng-SandBox":
+		{
+			"allowed_packages":
+		   	[
+			],
+		   	"api_version": 53,
+		   	"default": true,
+		   	"login_url": "https://test.salesforce.com",
+		   	"password": "sandbox@0929",
+		   	"subscribed_metadata_objects":
+		   	[
+		    	"ApexClass",
+		    	"ApexTrigger",
+		    	"ApexPage",
+		    	"ApexComponent",
+		    	"AuraDefinitionBundle",
+		    	"LightningComponentBundle"
+			],
+		   	"username": "jie.tao@bluelinksys.com.ds.dev",
+		   	"workspace": "D:/Bluelinksys/WorkSpace/DongSheng-SandBox",
+		},
+		"DongSheng-Product":
+		{
+			"allowed_packages":
+		   	[
+			],
+		   	"api_version": 53,
+		   	"default": false,
+		   	"login_url": "https://login.salesforce.com",
+		   	"password": "202305@DS",
+		   	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		   	"subscribed_metadata_objects":
+		   	[
+		    	"ApexClass",
+		    	"ApexTrigger",
+		    	"ApexPage",
+		    	"ApexComponent",
+		    	"AuraDefinitionBundle",
+		    	"LightningComponentBundle"
+			],
+		   	"username": "joe.xie@bluelinksys.com.ds",
+		   	"workspace": "D:/Bluelinksys/WorkSpace/DongSheng-Product",
+		},
+		// "RiFeng-Product":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://login.salesforce.com",
+		//    	"password": "1qwe2asd",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "bluelinksys@rf.zs.com",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/RiFeng",
+		// },
+		// "RiFeng-Sandbox":
+		// {
+		// 	"allowed_packages":
+		//    	[
+		// 	],
+		//    	"api_version": 53,
+		//    	"default": false,
+		//    	"login_url": "https://test.salesforce.com",
+		//    	"password": "1qaz2wsx",
+		//    	// "security_token": "jlvBjn0KcgaS55PYAO7IDw0n",
+		//    	"subscribed_metadata_objects":
+		//    	[
+		//     	"ApexClass",
+		//     	"ApexTrigger",
+		//     	"ApexPage",
+		//     	"ApexComponent",
+		//     	"AuraDefinitionBundle",
+		//     	"LightningComponentBundle"
+		// 	],
+		//    	"username": "joe.xie@rifeng.com.rfdata",
+		//    	"workspace": "D:/Bluelinksys/WorkSpace/RiFeng-Sandbox",
+		// },
+	},
+}
